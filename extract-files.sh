@@ -80,7 +80,7 @@ lib/libtvoutfimc.so
 lib/libtvouthdmi.so
 lib/libtvoutservice.so
 
-bin/pppd_runner
+bin/pppd
 bin/rild
 lib/libril.so
 lib/libsec-ril.so

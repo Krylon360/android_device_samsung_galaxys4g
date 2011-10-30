@@ -22,7 +22,7 @@ DEVICE_PACKAGE_OVERLAYS := device/samsung/aries-common/overlay
 # These are the hardware-specific configuration files
 PRODUCT_COPY_FILES := \
     device/samsung/galaxys4g/prebuilt/etc/asound.conf:system/etc/asound.conf \
-    device/samsung/galaxts4g/prebuilt/etc/vold.fstab:system/etc/vold.fstab \
+    device/samsung/galaxys4g/prebuilt/etc/vold.fstab:system/etc/vold.fstab \
     device/samsung/galaxys4g/prebuilt/etc/egl.cfg:system/lib/egl/egl.cfg
 
 # WiFi
@@ -31,7 +31,6 @@ PRODUCT_COPY_FILES += \
 
 # Keylayout and Keychars
 PRODUCT_COPY_FILES += \
-     device/samsung/galaxys4g/prebuilt/usr/keylayout/s3c-keypad.kl:system/usr/keylayout/s3c-keypad.kl \
      device/samsung/galaxys4g/prebuilt/usr/keylayout/sec_jack.kl:system/usr/keylayout/sec_jack.kl \
      device/samsung/galaxys4g/prebuilt/usr/keylayout/AVRCP.kl:system/usr/keylayout/AVRCP.kl \
      device/samsung/galaxys4g/prebuilt/usr/keylayout/aries-keypad.kl:system/usr/keylayout/aries-keypad.kl \
@@ -39,7 +38,6 @@ PRODUCT_COPY_FILES += \
      device/samsung/galaxys4g/prebuilt/usr/keylayout/qwerty.kl:system/usr/keylayout/qwerty.kl \
      device/samsung/galaxys4g/prebuilt/usr/keylayout/Broadcom_Bluetooth_HID.kl:system/usr/keylayout/Broadcom_Bluetooth_HID.kl \
      device/samsung/galaxys4g/prebuilt/usr/keychars/Broadcom_Bluetooth_HID.kcm.bin:system/usr/keychars/Broadcom_Bluetooth_HID.kcm.bin \
-     device/samsung/galaxys4g/prebuilt/usr/keychars/s3c-keypad.kcm.bin:system/usr/keychars/s3c-keypad.kcm.bin \
      device/samsung/galaxys4g/prebuilt/usr/keychars/melfas_touchkey.kcm.bin:system/usr/keychars/melfas_touchkey.kcm.bin \
      device/samsung/galaxys4g/prebuilt/usr/keychars/qwerty.kcm.bin:system/usr/keychars/qwerty.kcm.bin \
      device/samsung/galaxys4g/prebuilt/usr/keychars/aries-keypad.kcm.bin:system/usr/keychars/aries-keypad.kcm.bin \

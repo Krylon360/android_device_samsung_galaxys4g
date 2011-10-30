@@ -41,6 +41,7 @@ BOARD_MOBILEDATA_INTERFACE_NAME = "pdp0"
 TARGET_PROVIDES_INIT := true
 TARGET_PROVIDES_INIT_TARGET_RC := true
 TARGET_BOARD_PLATFORM := s5pv210
+TARGET_BOOTLOADER_BOARD_NAME := aries
 TARGET_RECOVERY_INITRC := device/samsung/galaxys4g/initramfs/recovery.rc
 
 # Releasetools
@@ -112,6 +113,6 @@ BOARD_HAS_NO_SELECT_BUTTON := true
 -include device/samsung/aries-common/Android.mk
 
 # Override cyanogen squisher to customize our update zip package
-TARGET_CUSTOM_RELEASETOOL := ./device/samsung/epic/releasetools/squisher
+TARGET_CUSTOM_RELEASETOOL := ./device/samsung/galaxys4g/releasetools/squisher
 
 TARGET_OTA_ASSERT_DEVICE := galaxys4g,SGH-T959V
