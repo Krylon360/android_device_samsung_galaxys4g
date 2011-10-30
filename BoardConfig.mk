@@ -115,4 +115,4 @@ BOARD_HAS_NO_SELECT_BUTTON := true
 # Include aries specific stuff
 -include device/samsung/aries-common/Android.mk
 
-TARGET_OTA_ASSERT_DEVICE := galaxys4g,SGH-T959V
+TARGET_OTA_ASSERT_DEVICE := aries,galaxys4g,SGH-T959V
