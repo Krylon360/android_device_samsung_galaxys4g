@@ -115,7 +115,4 @@ BOARD_HAS_NO_SELECT_BUTTON := true
 # Include aries specific stuff
 -include device/samsung/aries-common/Android.mk
 
-# Override cyanogen squisher to customize our update zip package
-TARGET_CUSTOM_RELEASETOOL := ./device/samsung/galaxys4g/releasetools/squisher
-
 TARGET_OTA_ASSERT_DEVICE := galaxys4g,SGH-T959V
