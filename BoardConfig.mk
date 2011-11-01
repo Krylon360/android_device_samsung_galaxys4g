@@ -59,7 +59,7 @@ endif
 #GPS
 #BOARD_USES_GPSSHIM := true
 
-TARGET_PROVIDES_LIBAUDIO := true
+#TARGET_PROVIDES_LIBAUDIO := true
 
 # OpenGL stuff
 BOARD_EGL_CFG := device/samsung/galaxys4g/prebuilt/etc/egl.cfg
